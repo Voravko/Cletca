@@ -1,0 +1,493 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Raleway:wght@400;700;800&display=swap');
+
+
+*
+{
+    margin: 0 0 0;
+    font-family: 'Raleway';
+ 
+}
+
+a {
+  text-decoration: none; /* Убирает подчеркивание для ссылок */
+ } 
+a:hover { 
+  text-decoration: underline; /* Добавляем подчеркивание при наведении курсора на ссылку */
+  color: rgb(255, 255, 255); 
+ }
+ 
+
+body::-webkit-scrollbar {
+    width: 0.1em;
+    background: rgba(255, 255, 255, 0);
+  }
+  body::-webkit-scrollbar-thumb {
+    background: #ffffff00;
+    height:30px;
+  }
+  
+  body::-webkit-scrollbar-track-piece
+  {
+    display:none;
+  }
+  body{
+    margin: 0 0 0 0;
+    overflow-x: hidden;
+  }
+
+.title
+{
+  font-weight: 500;
+  font-size: 48px;
+  width:  700px;
+}
+
+
+
+.rotate-main-conteiner
+{
+  display: block;
+  margin-top: 300px;
+  transform: rotate(-90deg);
+  width: 405.64px;
+}
+.lending-main
+{
+  width: auto;
+  height: 750px;
+  background-image: url(../img/fon.png);
+  background-size: cover;
+}
+.lending-main1
+{
+  width: auto;
+  height: 500px;
+  background-image: url(../img/three.png);
+  background-size: cover;
+}
+
+@media (min-width: 350px) and (max-width: 1000px) {
+  .lending-main
+  {
+    background-image: url(../img/fonmob.png);
+    height: 1450px;
+
+  }
+  .rotate-main-conteiner
+{
+  display: none;
+}
+.main-conteiner-title
+{
+  display: none;
+}
+.main-conteiner-dis
+{
+  display: none;
+}
+
+.menu-el
+{
+  padding-top: 70px;
+
+}
+.menu-el p 
+{
+  font-size: 30px;
+
+}
+.discription-block1
+{
+  display: none;
+}
+}
+
+
+.main-text
+{
+  font-weight: 700;
+  font-size: 36px;
+  display: block;
+  margin-bottom: 18px;
+}
+.main-discription
+{
+  font-weight: 300;
+  font-size: 20px;
+  color: #555454;
+}
+
+.main-conteiner
+{
+  display: block;
+  margin-left: 30%;
+  color: #FFFFFF;
+  margin-top: 100px;
+}
+
+.main-conteiner-title
+{
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+.main-conteiner-dis
+{
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.main-menu
+{
+  display: block;
+  position: relative;
+  bottom: 10px;
+  margin-left: 450px;
+}
+.menu-el
+{
+  display: inline-block;
+  margin-left: 100px;
+  font-weight: 700;
+  font-size: 15px;
+  color: #FFFFFF;
+}
+.menu-el:hover{
+  text-decoration: underline;
+}
+.main-logo
+{
+  display: block;
+  padding-top: 30px;
+  padding-left: 50px;
+}
+
+.discription-block
+{
+  display: flex;
+  margin-top: 150px;
+  margin-left: 100px;
+  margin-right: 100px;
+  justify-content: center;
+}
+
+.discription-block-p
+{
+  display: flex;
+  margin-top: 20px;
+  width: 516px;
+
+ 
+}
+.discription-block-img
+{
+  display: block;
+  padding-top: 50px;
+}
+
+.discription-block-table{
+  display: flex;
+  width: 550px;
+  height: auto;
+  text-align: center;
+  flex-wrap: wrap;
+
+
+}
+.discription-block-table-card{
+  display: block;
+  text-align: center;
+  width: 170px;
+  margin-left: 100px;
+  margin-top: 50px;
+
+}
+
+.discription-block-about
+{
+  display: block;
+}
+
+.discription-block-table-name
+{
+  font-weight: 500;
+  font-size: 11px;
+}
+
+.discription-block-table-number
+{
+  font-weight: 700;
+  font-size: 48px;
+}
+.discription-block-table-dis
+{
+  font-weight: 500;
+  font-size: 14px;
+}
+.main-paralax{
+  display: block;
+  width: auto;
+  height: 300px;
+  background-size: cover;
+  background-attachment: fixed;
+  margin-top: 150px;
+  background-image: url(../img/i.webp);
+}
+
+.main-servesis
+{
+  display: block;
+  margin-left: 120px;
+  margin-top: 100px;
+}
+.main-servesis-block-p
+{
+  display: block;
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 25px;
+  width: 900px;
+}
+
+.main-servesis-cards
+{
+  display: flex;
+  flex-wrap: nowrap;
+  width: auto;
+  justify-content: space-between;
+  margin-right: 120px;
+}
+.main-serv-card
+{
+  margin-top: 30px;
+  display: flex; 
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  text-align: center;
+  width: 35%;
+  height: 150px;
+  background: #D3C6C0
+}
+.main-serv-card:hover{
+  box-shadow: 0px 0px 7px rgba(153, 70, 10, 0.25);
+}
+.main-serv-card p{
+  padding-left: 20px;
+  padding-right:20px ;
+  display: block;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-weight: 600;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+
+.main-trener-block
+{
+  display: block;
+  margin-top: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.main-trener-block-slogan
+{
+  width: 562px;
+  display: block;
+  margin-left: auto;
+  margin-top: 70px;
+  position: relative;
+  right: 10%;
+  left:-10%;
+
+}
+
+.main-trener-block-cards
+{
+
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  margin-top: 40px;
+
+}
+
+.main-trener-block-card
+{
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  width: 320px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  padding-bottom: 5px;
+}
+
+.main-trener-block-card img
+{
+  width: 100%;
+}
+
+.main-trener-block-card-title
+{
+  display: block;
+  margin-left: 20px;
+  margin-top: 15px;
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.main-trener-block-card-dis
+{
+  display: block;
+  margin-left: 20px;
+
+  font-weight: 500;
+  font-size: 16px;
+  width: 90%;
+}
+
+.conteiner-discription-block1
+{
+    display: flex;
+    width: 330px;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+}
+.title-discription-block1
+{
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 10px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.dis-discription-block1
+{
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: 0.03em;
+}
+.discription-block1
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-dis-block
+{
+  display: block;
+  margin-top: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.main-dis-block1
+{
+  display: block;
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.footer
+{
+    background-image: url(../img/123.png);
+    background-size:cover;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 130px;
+    padding-bottom: 50px;
+
+}
+
+.course-main-picture
+{
+    width: auto;
+    margin-left: 120px;
+    margin-right: 120px;
+    background-image: url(/img/one.png);
+    background-size:cover;
+    background-attachment: fixed;
+    height: 350px;
+}
+
+.footer-text-one
+{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    width: 363px;
+}
+
+.footer-text-three
+{
+    font-style: normal;
+    font-weight: 100;
+    font-size: 18px;
+    text-align: right;
+    margin-left: auto;
+    color: #000000;
+    width: 363px;
+    padding-top: 70px;
+    position: relative;
+}
+
+
+.servesis
+{
+  display: block;
+  width: 400px;
+  height: 200px;
+  margin-top: 2%;
+  position: relative;
+  font-family: "FontName";
+  color: black;
+  margin-bottom: 3%;
+}
+
+.numbers
+{
+  font-size: 80px;
+  margin-left: 10%;
+  margin-top: 5%;
+  display: inline-block;
+}
+
+.line
+{
+  display: inline-block;
+  position: relative;
+  left: 9%;
+  bottom: 10%;
+  width: 1.5%;
+  background-color: black;
+  height: 30%;
+  transform: rotate(30deg) ;
+} 
+
+.servesis-text
+{
+  display: inline-block;
+  position: relative;
+  top: 0%;
+  margin-left: 5%;
+  width: 45%;
+
+}
+
+.block
+{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: auto;
+}
