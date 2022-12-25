@@ -86,16 +86,7 @@ body::-webkit-scrollbar {
   display: none;
 }
 
-.menu-el
-{
-  padding-top: 70px;
 
-}
-.menu-el p 
-{
-  font-size: 30px;
-
-}
 .discription-block1
 {
   display: none;
@@ -140,22 +131,37 @@ body::-webkit-scrollbar {
 
 .main-menu
 {
-  display: block;
+  display: flex;
+  flex-wrap: wrap;
   position: relative;
-  bottom: 10px;
-  margin-left: 450px;
+  bottom: 5px;
+  margin-left: 550px;
 }
 .menu-el
 {
   display: inline-block;
   margin-left: 100px;
   font-weight: 700;
-  font-size: 15px;
   color: #FFFFFF;
+  font-size: 20px;
 }
+
 .menu-el:hover{
   text-decoration: underline;
 }
+
+@media (min-width: 350px) and (max-width: 1000px) {
+  .menu-el
+  {
+    font-size: 40px;
+    padding-top: 60px;
+    margin-right: 50px;
+  }
+  .main-menu
+  {
+    margin-left: 0px;
+  }
+  }
 .main-logo
 {
   display: block;
@@ -247,13 +253,13 @@ body::-webkit-scrollbar {
   font-weight: 400;
   font-size: 16px;
   margin-top: 25px;
-  width: 900px;
+  width: 70%;
 }
 
 .main-servesis-cards
 {
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   width: auto;
   justify-content: space-between;
   margin-right: 120px;
@@ -265,7 +271,7 @@ body::-webkit-scrollbar {
   flex-wrap: wrap;
   justify-content: space-evenly;
   text-align: center;
-  width: 35%;
+  width: 45%;
   height: 150px;
   background: #D3C6C0
 }
@@ -303,13 +309,15 @@ body::-webkit-scrollbar {
 
 }
 
+
+
 .main-trener-block-cards
 {
 
   height: auto;
   display: flex;
   justify-content: space-between;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   margin-top: 40px;
 
 }

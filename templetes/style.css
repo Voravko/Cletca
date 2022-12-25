@@ -15,7 +15,11 @@
 }
 
 
-
+.main-servesis-cards
+{
+  display: flex;
+  flex-wrap: wrap;
+}
 
 .fon-picture
 {
